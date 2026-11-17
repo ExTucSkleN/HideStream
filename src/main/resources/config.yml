@@ -1,0 +1,23 @@
+# HideStream Plugin Configuration
+settings:
+  # Hide player join messages in chat?
+  hide-join: true
+
+  # Hide player quit messages in chat?
+  hide-quit: true
+
+  # Hide advancement (achievement) messages in chat?
+  hide-advancements: true
+
+  # Hide player death messages in chat?
+  hide-deaths: true
+
+  # If true, hidden messages will still be sent to the server console.
+  # Useful for admins to keep track of who joins/leaves/dies.
+  send-to-console: true
+
+messages:
+  prefix: "&8[&aHideStream&8] &r"
+  reload-success: "&aConfiguration successfully reloaded!"
+  no-permission: "&cYou do not have permission to use this command."
+  usage: "&cUsage: /hidestream reload"

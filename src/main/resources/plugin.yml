@@ -1,0 +1,14 @@
+name: HideStream
+version: '${version}'
+main: net.hidestream.HideStream
+api-version: '1.21'
+description: Hides join, quit, and advancement messages from chat to protect streamers.
+commands:
+  hidestream:
+    description: Manage HideStream plugin.
+    permission: hidestream.admin
+    usage: /hidestream reload
+permissions:
+  hidestream.admin:
+    description: Allows reloading the config.
+    default: op
