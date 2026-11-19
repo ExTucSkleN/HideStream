@@ -28,7 +28,6 @@ public final class HideStream extends JavaPlugin {
                     return true;
                 }
 
-                // Теперь текст берется из конфига
                 sender.sendMessage(getMessage("usage"));
                 return true;
             });
