@@ -42,7 +42,6 @@ public record StreamListener(HideStream plugin) implements Listener {
         }
     }
 
-    // НОВЫЙ МЕТОД: Скрытие сообщений о смерти
     @EventHandler
     public void onDeath(PlayerDeathEvent event) {
         if (plugin.getConfig().getBoolean("settings.hide-deaths", true)) {
